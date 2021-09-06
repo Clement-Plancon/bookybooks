@@ -1,0 +1,190 @@
+    * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+        font-family: "poppins";
+        scroll-behavior: smooth;
+    }
+    
+    h1,
+    h3,
+    h4,
+    h5,
+    h6,
+    button,
+    a {
+        font-family: "poppins";
+        text-transform: uppercase;
+    }
+    
+    h2 {
+        font-family: "poppins";
+        font-size: 0.8em;
+    }
+    
+    body {
+        width: auto;
+        margin: 0 auto;
+    }
+    /* -- SEC 1 CARD --*/
+    
+    .sec1 {
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .sec2 {
+        width: 100%;
+        height: 300px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .sec2_container {
+        width: 500px;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        background-color: white;
+        border: 2px solid;
+    }
+    
+    .sec2_text {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        color: black;
+        font-size: 34px;
+    }
+    
+    .sec1 .container {
+        width: 500px;
+        height: 300px;
+        display: flex;
+        justify-content: flex-start;
+        margin: 0 10px 0 10px;
+        border-top: 0.8mm solid;
+        -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+        animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+        margin-top: 70px;
+    }
+    
+    @-webkit-keyframes fade-in {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    
+    @keyframes fade-in {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    
+    .sec1 .container .card_container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .sec1 .container .card {
+        width: 200px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+    
+    .sec1 .container .card .title {
+        display: flex;
+        font-size: 1em;
+        justify-content: center;
+        text-align: center;
+        color: black;
+    }
+    
+    .sec1 .container .card .title_buy {
+        display: flex;
+        color: black;
+    }
+    
+    .sec1 .container .card .img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        min-width: 100px;
+        min-height: 200px;
+        max-width: 150px;
+        max-height: 200px;
+    }
+    
+    .sec1 .container .card_right {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: black;
+    }
+    
+    .sec1 .container .card_left {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: black;
+    }
+    
+    .title_quantity {
+        padding-top: 110px;
+    }
+    
+    .title_price {
+        padding-top: 110px;
+    }
+    
+    .container_trash {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .button_trash {
+        background-color: white;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    
+    .button_trash:hover {
+        background-color: black;
+        color: white;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }

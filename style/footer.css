@@ -1,0 +1,42 @@
+/* -- FOOTER -- */
+
+footer {
+    margin-top: 100px;
+    min-height: 300px;
+    bottom: 0px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+}
+
+footer .container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 1500px;
+    margin: 0 auto;
+}
+
+footer .container .left {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0px;
+}
+
+footer .container .right {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 30px 20px;
+}
+
+footer .container h1 {
+    color: #fec675;
+    margin-bottom: 20px;
+}
+
+footer .container p,
+footer .container a {
+    color: white;
+    text-decoration: none;
+}

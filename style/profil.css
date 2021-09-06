@@ -1,0 +1,341 @@
+    .div1 {
+        width: 100%;
+        border-width: 1px;
+        border-radius: 50px;
+        border-color: rgb(255, 255, 255);
+        font-family: Georgia;
+        font-size: 10pt;
+        color: rgb(0, 0, 0);
+    }
+    
+    .div2 {
+        background-color: rgb(255, 255, 255);
+        height: 355px;
+        overflow: auto;
+        margin-left: 1px;
+        margin-top: 30px;
+        margin-right: 1px;
+        padding: 15px;
+        border-radius: 50px;
+        border-style: solid;
+        border-color: rgb(255, 255, 255);
+    }
+    
+    @media (max-width: 600px) {
+        .div1 {
+            width: 400px;
+            border-width: 1px;
+            border-radius: 50px;
+            border-color: rgb(255, 255, 255);
+            font-family: Georgia;
+            font-size: 10pt;
+            color: rgb(0, 0, 0);
+        }
+    }
+    
+    @media (max-width: 400px) {
+        .div1 {
+            width: 300px;
+            border-width: 1px;
+            border-radius: 50px;
+            border-color: rgb(255, 255, 255);
+            font-family: Georgia;
+            font-size: 10pt;
+            color: rgb(0, 0, 0);
+        }
+    }
+    
+    @media (max-width: 300px) {
+        .div1 {
+            width: 200px;
+            border-width: 1px;
+            border-radius: 50px;
+            border-color: rgb(255, 255, 255);
+            font-family: Georgia;
+            font-size: 10pt;
+            color: rgb(0, 0, 0);
+        }
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+        font-family: "poppins";
+        scroll-behavior: smooth;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    button,
+    a {
+        font-family: "poppins";
+        text-transform: uppercase;
+    }
+    
+    body {
+        width: auto;
+        margin: 0 auto;
+    }
+    /* -- SEC 1 CARD --*/
+    
+    .sec1 {
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    @media (max-width: 1350px) {
+        .espace {
+            margin-top: 300px;
+            margin-bottom: 200px;
+        }
+    }
+    
+    @media (min-width: 1350px) {
+        .espace {
+            display: none;
+        }
+    }
+    
+    @media (max-width: 500px) {
+        body {
+            width: auto;
+            margin-top: 300px;
+        }
+        .espace {
+            margin-top: 550px;
+            margin-bottom: 200px;
+        }
+    }
+    
+    @media (max-width: 1350px) {
+        .sec1 {
+            width: 100%;
+            height: 140%;
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+    }
+    
+    .sec1 .container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        margin: 0 10px 0 10px;
+    }
+    
+    .sec1 .container .card {
+        width: 1100px;
+        height: 600px;
+        display: flex;
+        border-radius: 10px;
+        margin: 50px 10px 0 10px;
+    }
+    
+    .sec1 .container .card .container_left_up {
+        width: 50%;
+        height: 100%;
+        border-radius: 10px;
+        position: relative;
+        flex-direction: column;
+    }
+    
+    .sec1 .container .card .container_left {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        display: flex;
+        animation: shadow 3s infinite ease-in-out;
+        background-color: rgb(255, 255, 255);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+    }
+    
+    .sec1 .container .card .container_left_up .form_container {
+        z-index: 999;
+        width: 100%;
+        height: 92%;
+        position: absolute;
+        flex-direction: column;
+        display: flex;
+        padding-bottom: 100px;
+        justify-content: flex-end;
+        align-items: center;
+        color: rgb(255, 255, 255);
+    }
+    
+    .container_right h2 {
+        text-align: center;
+    }
+    
+    .sec1 .container .card .container_right {
+        width: 50%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .sec1 .container .card .container_right p {
+        text-align: center;
+        margin: 0 50px 0 50px;
+    }
+    
+    .sec1 .container .card .title {
+        display: flex;
+        font-size: 1em;
+        justify-content: center;
+        text-align: center;
+        color: white;
+    }
+    
+    .sec1 .container .card .container_left .container_info {
+        width: 50%;
+        height: 50%;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1em;
+        border-radius: 10px;
+    }
+    
+    .sec1 .container .card .container_left .container_info .img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        border: 1px solid rgb(255, 255, 255);
+        min-width: 200px;
+        min-height: 250px;
+        max-width: 150px;
+        max-height: 200px;
+    }
+    
+    .sec1 .container .card .container_left .container_info .title_info {
+        display: flex;
+        justify-content: center;
+        font-size: 1em;
+        color: rgb(255, 255, 255);
+    }
+    
+    @media (max-width: 1350px) {
+        .sec1 .container {
+            width: 100%;
+            height: 60%;
+            display: flex;
+            align-items: center;
+            margin: 0 10px 0 10px;
+        }
+        .sec1 .container .card {
+            width: 1100px;
+            height: 600px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 10px;
+            margin: 0 10px 0 10px;
+        }
+        .sec1 .container .card .container_left_up {
+            width: 100%;
+            height: 100%;
+            margin-bottom: 50px;
+            border-radius: 10px;
+            position: relative;
+        }
+        .sec1 .container .card .container_left {
+            width: 100%;
+            height: 600px;
+            border-radius: 10px;
+            display: flex;
+            animation: shadow 3s infinite ease-in-out;
+            background-color: rgb(255, 255, 255);
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 1;
+        }
+        .sec1 .container .card .container_right {
+            width: 100%;
+            height: 100%;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .sec1 .container .card .container_right p {
+            text-align: center;
+            margin: 0px 0px 0px 0px;
+        }
+    }
+    /* -- SEC 2 --*/
+    
+    @keyframes shadow {
+        /*------------ */
+        0% {
+            box-shadow: 0px 0px 45px 30px #c4c1c1;
+            transform: translateY(0px);
+        }
+        /*------------ */
+        20% {
+            box-shadow: 0px 0px 45px 0px #555555;
+        }
+        /*------------ */
+        40% {
+            box-shadow: 0px 0px 45px 15px #808080;
+        }
+        /*------------ */
+        50% {
+            transform: translateY(-30px);
+        }
+        /*------------ */
+        70% {
+            box-shadow: 0px 0px 45px -10px #383838;
+        }
+        /*------------ */
+        100% {
+            box-shadow: 0px 0px 45px 30px #c4c1c1;
+            transform: translateY(0px);
+        }
+        /*------------ */
+    }
+    
+    @keyframes shadow2 {
+        /*------------ */
+        0% {
+            box-shadow: 0px 0px 45px 30px #fec675;
+        }
+        /*------------ */
+        20% {
+            box-shadow: 0px 0px 45px 0px #fec675;
+        }
+        /*------------ */
+        40% {
+            box-shadow: 0px 0px 45px 15px #fec675;
+        }
+        /*------------ */
+        70% {
+            box-shadow: 0px 0px 45px -10px #efc675;
+        }
+        /*------------ */
+        100% {
+            box-shadow: 0px 0px 45px 30px #fec675;
+        }
+        /*------------ */
+    }
